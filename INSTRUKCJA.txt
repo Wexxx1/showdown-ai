@@ -1,0 +1,28 @@
+SHOWDOWN AI – asystent do Pokémon Showdown (Gen 9 Random Battle)
+
+Pokazuje w trakcie walki panel z podpowiedzią, jaki ruch wykonać albo na kogo zmienić Pokémona,
+z uzasadnieniem. Działa tylko w Gen 9 Random Battle na play.pokemonshowdown.com.
+
+INSTALACJA (Chrome, ok. 1 minuty)
+1. Rozpakuj ten ZIP – powstanie folder "showdown-ai". Zostaw go w stałym miejscu
+   (np. Dokumenty); jeśli go potem usuniesz albo przeniesiesz, rozszerzenie przestanie działać.
+2. W Chrome wpisz w pasek adresu: chrome://extensions
+3. Włącz "Tryb dewelopera" (przełącznik w prawym górnym rogu).
+4. Kliknij "Załaduj rozpakowane" i wskaż folder "showdown-ai" (ten, w którym jest manifest.json).
+5. Wejdź na play.pokemonshowdown.com (albo odśwież kartę) i zagraj Gen 9 Random Battle.
+
+UŻYWANIE
+- Panel "Showdown AI" pojawia się po prawej. Można go przeciągać za nagłówek i zwijać przyciskiem "–".
+- Na górze jest decyzja: "UŻYJ <ruch>" albo "ZMIEŃ NA <Pokémon>", pod spodem 2–3 krótkie fakty.
+- "Szczegóły" pokazują uzasadnienie, ranking opcji, tabele obrażeń i prędkość.
+- W trakcie animacji tury panel jest przyciemniony – nowa podpowiedź pojawia się, gdy tura się skończy.
+
+PRZYCISK "WYJAŚNIJ (AI)" – OPCJONALNY I PŁATNY
+Wysyła opis sytuacji do Claude'a i pokazuje wyjaśnienie decyzji. Wymaga własnego klucza API
+Anthropic (konto na platform.claude.com, płatne za użycie, kilka centów za kliknięcie).
+Klucz wpisuje się w: chrome://extensions -> Showdown AI -> Szczegóły -> Opcje rozszerzenia.
+Bez klucza wszystko inne działa normalnie i za darmo.
+
+AKTUALIZACJA
+Gdy dostaniesz nowszą wersję: podmień zawartość folderu "showdown-ai", a potem w chrome://extensions
+kliknij strzałkę odświeżania przy rozszerzeniu i odśwież kartę Showdown.

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Showdown AI – ustawienia</title>
+  <style>
+    body { font: 14px/1.5 system-ui, sans-serif; max-width: 520px; margin: 24px; color: #222; }
+    input { width: 100%; padding: 6px 8px; font: inherit; box-sizing: border-box; }
+    button { margin-top: 8px; padding: 6px 14px; font: inherit; cursor: pointer; }
+    .muted { color: #666; font-size: 13px; }
+    #status { margin-left: 8px; }
+  </style>
+</head>
+<body>
+  <h2>Showdown AI</h2>
+  <p>Przycisk <b>Wyjaśnij (AI)</b> w panelu wysyła opis sytuacji z walki do Claude'a (model claude-opus-5-5) i pokazuje wyjaśnienie decyzji.
+    Każde kliknięcie to jedno płatne zapytanie do API Anthropic.</p>
+  <label for="key">Klucz API Anthropic</label>
+  <input id="key" type="password" placeholder="sk-ant-..." autocomplete="off">
+  <div>
+    <button id="save">Zapisz</button>
+    <button id="clear">Usuń klucz</button>
+    <span id="status" class="muted"></span>
+  </div>
+  <p class="muted">Klucz jest przechowywany tylko w pamięci tego rozszerzenia (chrome.storage.local) i nie trafia na stronę Showdown.</p>
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Copyright (c) 2026 Wexxx1. All rights reserved.
+
+Kod tego projektu (z wyjątkiem bibliotek wymienionych w THIRD_PARTY_NOTICES.md)
+jest udostępniony wyłącznie do wglądu i do osobistego używania rozszerzenia.
+Bez pisemnej zgody autora nie wolno go kopiować, modyfikować, rozpowszechniać
+ani wykorzystywać w innych projektach.
+
+Biblioteki zewnętrzne zawarte w dist/ podlegają własnym licencjom (MIT),
+opisanym w THIRD_PARTY_NOTICES.md.

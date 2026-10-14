@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Showdown AI – asystent Random Battle",
+  "version": "0.2.0",
+  "description": "Czyta walkę Gen 9 Random Battle na Pokémon Showdown i poleca najlepszy ruch albo switch.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.anthropic.com/*"],
+  "background": { "service_worker": "dist/background.js" },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://play.pokemonshowdown.com/*", "https://*.psim.us/*"],
+      "js": ["dist/content.js"],
+      "world": "MAIN",
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://play.pokemonshowdown.com/*", "https://*.psim.us/*"],
+      "js": ["bridge.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
