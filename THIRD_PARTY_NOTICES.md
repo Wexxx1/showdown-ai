@@ -1,9 +1,9 @@
 # Third-party notices
 
-Pliki w `dist/` są zbudowanymi paczkami zawierającymi kod i dane z poniższych projektów (licencja MIT):
+The files in `dist/` are bundles that include code and data from the following projects (MIT License):
 
-- **@smogon/calc** – kalkulator obrażeń. Copyright (c) Smogon / Pokémon Showdown contributors. https://github.com/smogon/damage-calc
-- **Pokémon Showdown – zestawy Gen 9 Random Battle**. Copyright (c) Guangcong Luo and other contributors. https://github.com/smogon/pokemon-showdown
+- **@smogon/calc** – damage calculator. Copyright (c) Smogon / Pokémon Showdown contributors. https://github.com/smogon/damage-calc
+- **Pokémon Showdown – Gen 9 Random Battle sets**. Copyright (c) Guangcong Luo and other contributors. https://github.com/smogon/pokemon-showdown
 - **Anthropic TypeScript SDK** (`@anthropic-ai/sdk`). Copyright (c) Anthropic, PBC. https://github.com/anthropics/anthropic-sdk-typescript
 
-Pełne teksty licencji znajdują się w repozytoriach powyżej.
+Full license texts are available in the repositories above.

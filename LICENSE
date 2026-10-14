@@ -1,9 +1,9 @@
 Copyright (c) 2026 Wexxx1. All rights reserved.
 
-Kod tego projektu (z wyjątkiem bibliotek wymienionych w THIRD_PARTY_NOTICES.md)
-jest udostępniony wyłącznie do wglądu i do osobistego używania rozszerzenia.
-Bez pisemnej zgody autora nie wolno go kopiować, modyfikować, rozpowszechniać
-ani wykorzystywać w innych projektach.
+The code of this project (excluding the third-party libraries listed in
+THIRD_PARTY_NOTICES.md) is made available for viewing and for personal use of
+the extension only. You may not copy, modify, distribute or use it in other
+projects without the author's written permission.
 
-Biblioteki zewnętrzne zawarte w dist/ podlegają własnym licencjom (MIT),
-opisanym w THIRD_PARTY_NOTICES.md.
+Third-party libraries bundled in dist/ are subject to their own licenses (MIT),
+listed in THIRD_PARTY_NOTICES.md.

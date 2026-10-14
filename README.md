@@ -1,33 +1,33 @@
-# Showdown AI – asystent Gen 9 Random Battle
+# Showdown AI – Gen 9 Random Battle assistant
 
-Rozszerzenie do Chrome, które w trakcie walki **Gen 9 Random Battle** na [Pokémon Showdown](https://play.pokemonshowdown.com)
-pokazuje panel z podpowiedzią: jaki ruch użyć albo na kogo zmienić Pokémona, z krótkim uzasadnieniem,
-tabelami obrażeń i porównaniem prędkości.
+A Chrome extension that shows an advice panel during **Gen 9 Random Battle** games on
+[Pokémon Showdown](https://play.pokemonshowdown.com): which move to use or which Pokémon to switch to,
+with a short explanation, damage tables and a speed comparison.
 
-Opcjonalny przycisk **„Wyjaśnij (AI)”** wysyła opis sytuacji do Claude'a (API Anthropic) i pokazuje
-wyjaśnienie decyzji. Wymaga własnego klucza API – bez niego reszta działa za darmo.
+The optional **"Explain (AI)"** button sends a summary of the battle to Claude (Anthropic API) and shows
+an explanation of the decision. It requires your own API key; everything else works for free without it.
 
-## Instalacja
+> The extension's interface is currently in Polish.
 
-1. Pobierz repozytorium (Code → Download ZIP) i rozpakuj.
-2. Otwórz `chrome://extensions` i włącz **Tryb dewelopera**.
-3. Kliknij **Załaduj rozpakowane** i wskaż folder z plikiem `manifest.json`.
-4. Wejdź na play.pokemonshowdown.com i zagraj Gen 9 Random Battle.
+## Installation
 
-Szczegóły: [INSTRUKCJA.txt](INSTRUKCJA.txt).
+1. Download the repository (Code → Download ZIP) and unzip it.
+2. Open `chrome://extensions` and enable **Developer mode**.
+3. Click **Load unpacked** and select the folder containing `manifest.json`.
+4. Go to play.pokemonshowdown.com and play a Gen 9 Random Battle.
 
-## Prywatność
+## Privacy
 
-- Klucz API jest przechowywany tylko lokalnie (`chrome.storage.local`) i używany wyłącznie przez service worker rozszerzenia.
-- Dane z walki są wysyłane do API Anthropic **tylko** po kliknięciu „Wyjaśnij (AI)”.
+- The API key is stored only locally (`chrome.storage.local`) and is used only by the extension's service worker.
+- Battle data is sent to the Anthropic API **only** when you click "Explain (AI)".
 
-## Uwaga
+## Disclaimer
 
-Projekt fanowski, niezwiązany z Nintendo, Game Freak, The Pokémon Company ani Pokémon Showdown.
-Pokémon jest znakiem towarowym jego właścicieli. Używaj zgodnie z zasadami Pokémon Showdown.
+Fan project, not affiliated with Nintendo, Game Freak, The Pokémon Company or Pokémon Showdown.
+Pokémon is a trademark of its respective owners. Use in accordance with Pokémon Showdown's rules.
 
-## Licencja
+## License
 
-Wszelkie prawa zastrzeżone – zobacz [LICENSE](LICENSE).
+All rights reserved – see [LICENSE](LICENSE).
 
-Wykorzystane biblioteki i dane: zobacz [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Third-party libraries and data: see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
