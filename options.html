@@ -23,6 +23,12 @@
     <span id="status" class="muted"></span>
   </div>
   <p class="muted">Klucz jest przechowywany tylko w pamięci tego rozszerzenia (chrome.storage.local) i nie trafia na stronę Showdown.</p>
+  <h3>Zapis walk</h3>
+  <label><input id="save-battles" type="checkbox" style="width:auto"> Zapisuj zakończone walki do Pobranych</label>
+  <p class="muted">Po każdej walce plik JSON (log, twój set, decyzje silnika) trafia do <code>Pobrane/showdown-ai/walki/</code> –
+    do analizy przegranych (<code>node tools/debug-session.js</code>). Chrome poprosi o uprawnienie do pobierania plików.
+    <span id="save-status"></span></p>
+  <p class="muted">made by WeXene</p>
   <script src="options.js"></script>
 </body>
 </html>
